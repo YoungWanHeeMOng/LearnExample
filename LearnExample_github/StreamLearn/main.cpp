@@ -3,8 +3,17 @@
 
 #include <iostream>
 
+
+void First()
+{
+	std::cout << "First upload" << std::endl;
+}
 int main()
 {
     std::cout << "Hello World!\n" << std::endl;
-	std::cout << " My name is Young-Wan " << std::endl;
+	
+
+	First();
+
+	return 0;
 }
